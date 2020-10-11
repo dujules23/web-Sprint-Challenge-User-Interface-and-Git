@@ -23,11 +23,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -37,6 +39,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -49,6 +52,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px black;
 }
 
 html, body {
@@ -66,12 +70,12 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container-about-page {
     width: 800px;
     margin: 0 auto;
 }
 
-.header-nav{
+.about-header-nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -82,108 +86,62 @@ p {
 }
 
 a{
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
-.header-image{
+.about-header-image{
     padding: 20px 2%;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.about-section{
+    padding: 2%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+
+.center-group h2, p{
+    padding: 3%
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+
+
+button{
+    width: 40%;
+    padding: 10px;
+    border-radius: 2rem;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
+.center-container .center-content{
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.box-1{
-    background: teal;
-}
 
-.box-2{
-    background: gold;
-}
 
-.box-3{
-    background: cadetblue;
-}
-
-.box-4{
-    background: coral;
-}
-
-.box-5{
-    background: crimson;
-}
-
-.box-6{
-    background: forestgreen;
-}
-
-.box-7{
-    background: darkorchid;
-}
-
-.box-8{
-    background: hotpink;
-}
-
-.box-9{
-    background: indigo;
-}
-
-.box-10{
-    background: dodgerblue;
-}
-
-.middle-content .boxes .box-1, .box-2, .box-3, .box-4,
-.box-5, .box-6, .box-7, .box-8, .box-9, .box-10 {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.center-group{
+    border: white;
+    border-bottom: 1px dashed black;
+    width: 50%;
+    padding :1%;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 
-.bottom-content {
+
+.end-content{
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.text-container{
+    margin: auto;
+    padding: 5%;
 }
 
 footer {
