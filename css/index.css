@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-image{
+    padding: 20px 2%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,16 +119,57 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box-1{
+    background: teal;
+}
+
+.box-2{
+    background: gold;
+}
+
+.box-3{
+    background: cadetblue;
+}
+
+.box-4{
+    background: coral;
+}
+
+.box-5{
+    background: crimson;
+}
+
+.box-6{
+    background: forestgreen;
+}
+
+.box-7{
+    background: darkorchid;
+}
+
+.box-8{
+    background: hotpink;
+}
+
+.box-9{
+    background: indigo;
+}
+
+.box-10{
+    background: dodgerblue;
+}
+
+.middle-content .boxes .box-1, .box-2, .box-3, .box-4,
+.box-5, .box-6, .box-7, .box-8, .box-9, .box-10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
